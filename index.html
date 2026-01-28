@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pao Tung Bon Kai - Exquisite Dining</title>
+    <link rel="icon" href="logo.png?v=2" type="image/png">
+    <link rel="apple-touch-icon" href="logo.png?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.png?v=2" alt="Pao Tung Bon Kai">
+                <span data-en="Pao Tung Bon Kai" data-th="เป๋าตุงบ่อนไก่">เป๋าตุงบ่อนไก่</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about" data-en="About" data-th="เกี่ยวกับเรา">เกี่ยวกับเรา</a></li>
+                    <li><a href="#menu" data-en="Menu" data-th="เมนู">เมนู</a></li>
+                    <li><a href="#contact" data-en="Contact" data-th="ติดต่อ">ติดต่อ</a></li>
+                    <li><button id="lang-toggle" class="lang-btn">EN</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 data-en="Delicious Flavors, Great Vibes" data-th="รสชาติถูกปาก บรรยากาศถูกใจ">รสชาติถูกปาก บรรยากาศถูกใจ</h1>
+            <p data-en="Original Grilled Fish and delicious dishes everyone must try." data-th="ต้นตำรับเมี่ยงปลาเผา และอาหารรสเด็ดที่ใครก็ต้องลอง">ต้นตำรับเมี่ยงปลาเผา และอาหารรสเด็ดที่ใครก็ต้องลอง</p>
+            <a href="#contact" class="btn" data-en="Make a Reservation" data-th="จองโต๊ะ">จองโต๊ะ</a>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="Story.jpg" alt="Restaurant Atmosphere">
+                    </div>
+                    <div class="about-text">
+                        <h2 data-en="Our Story" data-th="เรื่องราวของเรา">เรื่องราวของเรา</h2>
+                        <p data-en="The first grilled Tilapia with fresh vegetables in Hua Hin, and a restaurant of memories for everyone." 
+                           data-th="เมี่ยงปลานิลเผาเจ้าแรกในหัวหิน และร้านอาหารแห่งความทรงจำของทุกคน">
+                           เมี่ยงปลานิลเผาเจ้าแรกในหัวหิน และร้านอาหารแห่งความทรงจำของทุกคน
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <h2 style="text-align: center;" data-en="Our Menu" data-th="เมนูของเรา">เมนูของเรา</h2>
+                
+                <div class="menu-section">
+                    <h3 class="menu-category" data-en="Recommended & Appetizers" data-th="ของทานเล่นและเมนูแนะนำ">ของทานเล่นและเมนูแนะนำ</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item"><h3 data-en="Grilled fish with vegetable" data-th="เมี่ยงปลาเผา">เมี่ยงปลาเผา</h3></div>
+                        <div class="menu-item"><h3 data-en="Deep fried fish" data-th="ปลานิลทอด">ปลานิลทอด</h3></div>
+                        <div class="menu-item"><h3 data-en="Fish with three sauces" data-th="ปลานิลทอดสามรส">ปลานิลทอดสามรส</h3></div>
+                        <div class="menu-item"><h3 data-en="Deep fried pork belly" data-th="สามชั้นทอด">สามชั้นทอด</h3></div>
+                        <div class="menu-item"><h3 data-en="Deep fried chicken wings" data-th="ปีกไก่ทอด">ปีกไก่ทอด</h3></div>
+                        <div class="menu-item"><h3 data-en="Sun dried pork" data-th="หมูแดด">หมูแดด</h3></div>
+                        <div class="menu-item"><h3 data-en="Sun dried beef" data-th="เนื้อแดด">เนื้อแดด</h3></div>
+                        <div class="menu-item"><h3 data-en="Fried tofu" data-th="เต้าหู้ทอด">เต้าหู้ทอด</h3></div>
+                        <div class="menu-item"><h3 data-en="Fried golden needle mushroom" data-th="เห็ดเข็มทอด">เห็ดเข็มทอด</h3></div>
+                        <div class="menu-item"><h3 data-en="Omelette" data-th="ไข่เจียว">ไข่เจียว</h3></div>
+                        <div class="menu-item"><h3 data-en="Omelette with minced pork" data-th="ไข่เจียวหมูสับ">ไข่เจียวหมูสับ</h3></div>
+                    </div>
+
+                    <h3 class="menu-category" data-en="Spicy Salads (Yum, Larb, Som Tum)" data-th="ยำ ลาบ และส้มตำ">ยำ ลาบ และส้มตำ</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item"><h3 data-en="Spicy deep fried minced pork" data-th="ลาบหมูระเบิด">ลาบหมูระเบิด</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy deep fried pork belly" data-th="ลาบกรุบกรอบ">ลาบกรุบกรอบ</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy deep fried fish" data-th="ลาบปลานิล">ลาบปลานิล</h3></div>
+                        <div class="menu-item"><h3 data-en="Grilled pork's neck" data-th="คอหมูย่าง">คอหมูย่าง</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy minced pork" data-th="ลาบหมู">ลาบหมู</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy minced duck" data-th="ลาบเป็ด">ลาบเป็ด</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy grilled pork's neck" data-th="น้ำตกคอหมูย่าง">น้ำตกคอหมูย่าง</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy raw shrimp" data-th="น้ำตกกุ้งสด">น้ำตกกุ้งสด</h3></div>
+                        <div class="menu-item"><h3 data-en="Glass Noodle Salad with minced pork" data-th="ยำวุ้นเส้นหมูสับ">ยำวุ้นเส้นหมูสับ</h3></div>
+                        <div class="menu-item"><h3 data-en="Glass Noodle Salad with white sausage" data-th="ยำวุ้นเส้นหมูยอ">ยำวุ้นเส้นหมูยอ</h3></div>
+                        <div class="menu-item"><h3 data-en="Glass Noodle Salad with seafood" data-th="ยำวุ้นเส้นทะเล">ยำวุ้นเส้นทะเล</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy rice noodle salad with mackerel" data-th="ยำขนมจีนปลาทู">ยำขนมจีนปลาทู</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy rice noodle salad with white sausage" data-th="ยำขนมจีนหมูยอ">ยำขนมจีนหมูยอ</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy rice noodle salad with raw shrimp" data-th="ยำขนมจีนกุ้งสด">ยำขนมจีนกุ้งสด</h3></div>
+                        <div class="menu-item"><h3 data-en="Pork's neck spicy salad" data-th="ยำคอหมูย่าง">ยำคอหมูย่าง</h3></div>
+                        <div class="menu-item"><h3 data-en="Deep fried pork belly spicy salad" data-th="ยำสามชั้นทอด">ยำสามชั้นทอด</h3></div>
+                        <div class="menu-item"><h3 data-en="Salmon spicy salad" data-th="ยำแซลม่อน">ยำแซลม่อน</h3></div>
+                        <div class="menu-item"><h3 data-en="Raw shrimp spicy salad" data-th="ยำกุ้งสด">ยำกุ้งสด</h3></div>
+                        <div class="menu-item"><h3 data-en="White sausage spicy salad" data-th="ยำหมูยอ">ยำหมูยอ</h3></div>
+                        <div class="menu-item"><h3 data-en="Crispy morning glory spicy salad" data-th="ยำผักบุ้งกรอบ">ยำผักบุ้งกรอบ</h3></div>
+                        <div class="menu-item"><h3 data-en="Thai papaya salad with crab" data-th="ตำไทยปู">ตำไทยปู</h3></div>
+                        <div class="menu-item"><h3 data-en="Papaya salad with crab" data-th="ตำปู">ตำปู</h3></div>
+                        <div class="menu-item"><h3 data-en="Pickled fish papaya salad with crab" data-th="ตำปูปลาร้า">ตำปูปลาร้า</h3></div>
+                        <div class="menu-item"><h3 data-en="Papaya salad with white sausage" data-th="ตำหมูยอ">ตำหมูยอ</h3></div>
+                        <div class="menu-item"><h3 data-en="Papaya salad with crackling pork" data-th="ตำกากหมู">ตำกากหมู</h3></div>
+                        <div class="menu-item"><h3 data-en="Papaya salad with grilled pork's neck" data-th="ตำคอหมูย่าง">ตำคอหมูย่าง</h3></div>
+                        <div class="menu-item"><h3 data-en="Pickled fish papaya salad with raw shrimp" data-th="ตำปลาร้ากุ้งสด">ตำปลาร้ากุ้งสด</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy corn salad with salted egg" data-th="ตำข้าวโพดไข่เค็ม">ตำข้าวโพดไข่เค็ม</h3></div>
+                        <div class="menu-item"><h3 data-en="Rice noodle papaya salad" data-th="ตำซั่ว">ตำซั่ว</h3></div>
+                        <div class="menu-item"><h3 data-en="Papaya salad with bamboo shoot" data-th="ตำป่า">ตำป่า</h3></div>
+                    </div>
+
+                    <h3 class="menu-category" data-en="Soups & Curries" data-th="ต้มและแกง">ต้มและแกง</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item"><h3 data-en="Spicy pork cartilage soup" data-th="ต้มแซ่บกระดูกอ่อน">ต้มแซ่บกระดูกอ่อน</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy beef cartilage soup" data-th="ต้มแซ่บเนื้อ">ต้มแซ่บเนื้อ</h3></div>
+                        <div class="menu-item"><h3 data-en="Chicken's feet soup" data-th="ซุปเปอร์ขาไก่">ซุปเปอร์ขาไก่</h3></div>
+                        <div class="menu-item"><h3 data-en="Mushroom soup" data-th="แกงเห็ด">แกงเห็ด</h3></div>
+                        <div class="menu-item"><h3 data-en="Pork spicy curry soup" data-th="แกงป่าหมู">แกงป่าหมู</h3></div>
+                        <div class="menu-item"><h3 data-en="Beef spicy curry soup" data-th="แกงป่าเนื้อ/ไก่บ้าน">แกงป่าเนื้อ/ไก่บ้าน</h3></div>
+                        <div class="menu-item"><h3 data-en="Pork thai green curry" data-th="เขียวหวานหมู">เขียวหวานหมู</h3></div>
+                        <div class="menu-item"><h3 data-en="Beef thai green curry" data-th="เขียวหวานเนื้อ">เขียวหวานเนื้อ</h3></div>
+                        <div class="menu-item"><h3 data-en="Chicken coconut soup" data-th="ต้มข่าไก่">ต้มข่าไก่</h3></div>
+                        <div class="menu-item"><h3 data-en="Seafood coconut soup" data-th="ต้มข่าทะเล">ต้มข่าทะเล</h3></div>
+                        <div class="menu-item"><h3 data-en="Thai sour curry with shrimp" data-th="แกงส้มชะอมกุ้ง">แกงส้มชะอมกุ้ง</h3></div>
+                        <div class="menu-item"><h3 data-en="Clear soup with bean curd and minced pork" data-th="ต้มจืด">ต้มจืด</h3></div>
+                        <div class="menu-item"><h3 data-en="Hot and sour soup with seafood" data-th="ต้มยำทะเล">ต้มยำทะเล</h3></div>
+                    </div>
+
+                    <h3 class="menu-category" data-en="Rice & Main Dishes" data-th="อาหารจานเดียวและกับข้าว">อาหารจานเดียวและกับข้าว</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item"><h3 data-en="Sticky rice" data-th="ข้าวเหนียว">ข้าวเหนียว</h3></div>
+                        <div class="menu-item"><h3 data-en="Rice noodle" data-th="ขนมจีน">ขนมจีน</h3></div>
+                        <div class="menu-item"><h3 data-en="Thin rice noodles with garlic" data-th="หมี่คลุกกระเทียม">หมี่คลุกกระเทียม</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried pork with garlic on rice" data-th="ข้าวหมูกระเทียม">ข้าวหมูกระเทียม</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried beef with garlic on rice" data-th="ข้าวเนื้อกระเทียม">ข้าวเนื้อกระเทียม</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried shrimp with garlic on rice" data-th="ข้าวกุ้งกระเทียม">ข้าวกุ้งกระเทียม</h3></div>
+                        <div class="menu-item"><h3 data-en="Omelette on rice" data-th="ข้าวไข่เจียว">ข้าวไข่เจียว</h3></div>
+                        <div class="menu-item"><h3 data-en="Omelette with minced pork on rice" data-th="ข้าวไข่เจียวหมูสับ">ข้าวไข่เจียวหมูสับ</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried minced pork with thai basil on rice" data-th="ข้าวกะเพราหมูสับ">ข้าวกะเพราหมูสับ</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried minced beef with thai basil on rice" data-th="ข้าวกะเพราเนื้อ">ข้าวกะเพราเนื้อ</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried seafood with thai basil on rice" data-th="ข้าวกะเพราทะเล">ข้าวกะเพราทะเล</h3></div>
+                        <div class="menu-item"><h3 data-en="Pork fried rice" data-th="ข้าวผัดหมู">ข้าวผัดหมู</h3></div>
+                        <div class="menu-item"><h3 data-en="Seafood fried rice" data-th="ข้าวผัดทะเล">ข้าวผัดทะเล</h3></div>
+                        <div class="menu-item"><h3 data-en="Mackerel fried rice" data-th="ข้าวผัดปลาทู">ข้าวผัดปลาทู</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried pork with oyster sauce on rice" data-th="ข้าวหมูน้ำมันหอย">ข้าวหมูน้ำมันหอย</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried beef with oyster sauce on rice" data-th="ข้าวเนื้อน้ำมันหอย">ข้าวเนื้อน้ำมันหอย</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-Fried Mixed Vegetables" data-th="ผัดผักรวม">ผัดผักรวม</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir Fried Mushrooms with Oyster Sauce" data-th="เห็ดผัดน้ำมันหอย">เห็ดผัดน้ำมันหอย</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried shrimp with garlic" data-th="กุ้งกระเทียม">กุ้งกระเทียม</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried squid with garlic" data-th="หมึกกระเทียม">หมึกกระเทียม</h3></div>
+                        <div class="menu-item"><h3 data-en="Fried shrimp with tamarind sauce" data-th="กุ้งราดซอสมะขาม">กุ้งราดซอสมะขาม</h3></div>
+                        <div class="menu-item"><h3 data-en="Fried chicken with tamarind sauce" data-th="ไก่ราดซอสมะขาม">ไก่ราดซอสมะขาม</h3></div>
+                        <div class="menu-item"><h3 data-en="Stir-fried spicy seafood" data-th="ผัดฉ่าทะเล">ผัดฉ่าทะเล</h3></div>
+                        <div class="menu-item"><h3 data-en="Spicy salted stir-fried shrimp" data-th="กุ้งผัดพริกเกลือ">กุ้งผัดพริกเกลือ</h3></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 data-en="Contact & Reservations" data-th="ติดต่อและจองโต๊ะ">ติดต่อและจองโต๊ะ</h2>
+                <p data-en="We'd love to host you. Call us to book your table." data-th="เรายินดีต้อนรับคุณ โทรหาเราเพื่อจองโต๊ะ">เรายินดีต้อนรับคุณ โทรหาเราเพื่อจองโต๊ะ</p>
+                <p><strong data-en="Phone:" data-th="โทรศัพท์:">โทรศัพท์:</strong> (123) 456-7890</p>
+                <p><strong data-en="Address:" data-th="ที่อยู่:">ที่อยู่:</strong> <span data-en="6/285 Thang Rotfai Fang Tawan-ok Rd, Hua Hin, Prachuap Khiri Khan 77110" data-th="6/285 ถนนทางรถไฟฝั่งตวันออก หัวหิน ประจวบคีรีขันธ์ 77110">6/285 ถนนทางรถไฟฝั่งตวันออก หัวหิน ประจวบคีรีขันธ์ 77110</span></p>
+                <p><strong data-en="Hours:" data-th="เวลาทำการ:">เวลาทำการ:</strong> <span data-en="Tue - Sun, 5:00 PM - 10:00 PM" data-th="อังคาร - อาทิตย์, 17:00 - 22:00 น.">อังคาร - อาทิตย์, 17:00 - 22:00 น.</span></p>
+                <div style="margin-top: 2rem;">
+                    <iframe src="https://maps.google.com/maps?q=HX54%2BVC%20Hua%20Hin&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Pao Tung Bon Kai. <span data-en="All Rights Reserved." data-th="สงวนลิขสิทธิ์">สงวนลิขสิทธิ์</span></p>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('lang-toggle');
+        let currentLang = 'th';
+
+        toggleBtn.addEventListener('click', () => {
+            // Switch language state
+            currentLang = currentLang === 'en' ? 'th' : 'en';
+            
+            // Update button text to show the OTHER language option
+            toggleBtn.innerText = currentLang === 'en' ? 'TH' : 'EN';
+
+            // Select all elements with data-en and data-th attributes
+            const elements = document.querySelectorAll('[data-en][data-th]');
+            
+            elements.forEach(el => {
+                if (currentLang === 'th') {
+                    el.innerText = el.getAttribute('data-th');
+                } else {
+                    el.innerText = el.getAttribute('data-en');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
